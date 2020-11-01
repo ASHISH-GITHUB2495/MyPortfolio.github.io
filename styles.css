@@ -1,0 +1,102 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  #top{
+      height: 100vh;
+      width: auto;
+      text-align: center;
+  }
+  #top-item{
+     position: relative;
+     top: 30%;
+  }
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+  #profile-area{
+    background-color: #cfbfbf;
+   
+    width: 100%;
+   text-align: center;
+   padding: 5%;
+   padding-bottom: 0;
+   
+}
+#profile-item{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 5%;
+    padding-top: 0;
+}
+#row-items{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+   
+}
+/* ------------------------------- */
+#experience{
+    background-color: rgb(250, 219, 219);
+    text-align: center ;
+    width: 100%;
+    
+   
+}
+#experience-items{
+    padding: 5%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+/* .................... */
+#abilities{
+    background-color: #cfbfbf;
+    text-align: center ;
+    width: 100%;
+
+    
+}
+#abilities-items{
+    padding: 5%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.no-bullets{
+    list-style-type: none;
+
+
+}
+.ability-title{
+   float: left;
+    width: 60%;
+    color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: left;
+}
+.filled{
+    color: #22A39F;
+}
+
+
+/* ................... */
+
+#down{
+    background-color: red;
+    height: 90vh;
+    width: 100%;
+   
+}
