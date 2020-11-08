@@ -17,7 +17,42 @@
      position: relative;
      top: 30%;
   }
+ /* ----navigation---- */
+ @media screen and (max-width: 700px) {
+    #navigation{
+      display: none;
+    }
+  }
+ #navigation{
+    position: fixed;
+    
+    top:20%;
+    right:5%;
 
+}
+#navigation  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+    } 
+   #navigation  li a {
+      width: auto;
+      height: 5em;
+      display: block;
+      color: white;
+      background-color: rgb(59, 20, 20);
+      padding: 0 1em;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 35%;
+
+    }
+    #navigation  li a:hover {
+      background-color: #555;
+      color: white;
+    }
+/* -------------------------- */
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
   #profile-area{
@@ -29,37 +64,7 @@
    padding-bottom: 0;
    
 }
-              /* ----navigation---- */
-              #navigation{
-                  position: fixed;
-                  
-                  top:20%;
-                  left:90%;
-
-              }
-              #navigation  ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-               
-                  } 
-                 #navigation  li a {
-                    width: auto;
-                    height: 5em;
-                    display: block;
-                    color: white;
-                    background-color: rgb(59, 20, 20);
-                    padding: 8px 16px;
-                    text-decoration: none;
-                    text-align: center;
-                    padding-top: 35%;
-
-                  }
-                  #navigation  li a:hover {
-                    background-color: #555;
-                    color: white;
-                  }
-              /* -------------------------- */
+             
 #profile-item{
     margin-top: 0;
     margin-bottom: 0;
