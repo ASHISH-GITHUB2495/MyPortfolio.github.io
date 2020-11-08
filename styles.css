@@ -29,6 +29,37 @@
    padding-bottom: 0;
    
 }
+              /* ----navigation---- */
+              #navigation{
+                  position: fixed;
+                  
+                  top:20%;
+                  left:90%;
+
+              }
+              #navigation  ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+               
+                  } 
+                 #navigation  li a {
+                    width: auto;
+                    height: 5em;
+                    display: block;
+                    color: white;
+                    background-color: rgb(59, 20, 20);
+                    padding: 8px 16px;
+                    text-decoration: none;
+                    text-align: center;
+                    padding-top: 35%;
+
+                  }
+                  #navigation  li a:hover {
+                    background-color: #555;
+                    color: white;
+                  }
+              /* -------------------------- */
 #profile-item{
     margin-top: 0;
     margin-bottom: 0;
@@ -93,10 +124,36 @@
 
 
 /* ................... */
+#projects{
+    background-color: rgb(250, 219, 219);
+    text-align: center ;
+    width: 100%;
+ 
+}
+#projects-items{
+    padding: 5%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.but-pro{
+    height: 40vh;
+    width: 40vh;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    
+}
 
-#down{
-    background-color: red;
+/* .......................... */
+#contact{
+    background-color: rgb(65, 55, 55);
     height: 90vh;
     width: 100%;
    
+}
+#contact-items{
+    padding: 5%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
