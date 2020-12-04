@@ -122,6 +122,10 @@
     color: #434242;
     font-family: 'Open Sans', sans-serif !important;
     text-align: left;
+    
+}
+.ability-score{
+    float: right;
 }
 .filled{
     color: #22A39F;
@@ -152,7 +156,7 @@
 /* .......................... */
 #contact{
     background-color: rgb(65, 55, 55);
-    height: 90vh;
+  
     width: 100%;
    
 }
